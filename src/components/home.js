@@ -1,12 +1,11 @@
 import React from 'react';
+import Header from './header';
 
 const Home = () => {
     return (
         <div>
-            <header>
-                <h1>Header</h1>
-            </header>
-            <h2>Title</h2>
+            <Header />
+            <h1 className='title'>Itabirrrito</h1>
         </div>
     );
 };
